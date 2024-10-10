@@ -1,0 +1,43 @@
+// .container-header{
+//     height: 150px;
+// }
+.main-navbar {
+    .logo-header{
+        width: 325px;
+        padding: 20px 0;
+        margin-left:20%;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    }
+}
+.on-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    height: fit-content;
+    transition: all 0.20s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    font-size: 16px;
+}
+
+.nav-shadow {
+    height: fit-content;
+    box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+    font-size: 14px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    .logo-header{
+        padding: 5px 0; 
+        margin-left:25%;   
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+        width: 300px;
+    }
+}
+
+#header-ocean-terrace{
+    .show{
+        width: fit-content;
+    }
+} 
+
+#custom-ul-header{
+    margin-right: 20%;
+}
